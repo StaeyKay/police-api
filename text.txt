@@ -1,0 +1,28 @@
+1. create a police-api folder and open in vs code
+2. initialize npm in the project
+3. install express, nodemon
+4. create your index.js file and create your server and listen to it at any project
+5. create your routes folder and add your statement route to it
+6. create a get request to get all statement
+7. create a post request to post a statement
+8. be ready to test it in thunder client
+9. create a config folder. (because that is where they do data configuration). 
+10. create a file called db.js
+11. install dotenv and import it
+12. create your .env file
+13. install mongodb and mongoose, import mongoose
+13. connect to our datrabase
+
+to work with monogo DB
+create an account on mongo atlas
+copy the link with your username and password
+download and install mongoDB compass
+paste the link copied from mongo atlass
+create a database by clicking on database on mongoDB 
+install mongoDB in the terminal of your project
+install mongoose in the terminal of your project
+
+Create a .env file to protect your password from being visible on git
+Input the URL from mongoDB compass in the file
+Install a .env package to get access to the .env file
+

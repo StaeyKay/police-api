@@ -11,11 +11,8 @@ const policeApp = express();
 
 dbConnection();
 
-// const mongoUri = process.env.mongo_url
-
-// mongoose.connect(mongoUri).then(() => {
-//     console.log('Database is connected')
-// })
+// Add the middleware
+policeApp.use(express.json());
 
 // Define routes
 policeApp.post('/create', (req, res) => {

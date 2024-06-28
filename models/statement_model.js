@@ -4,7 +4,6 @@ const {Schema, model} = mongoose;
 
 // Defining the schema for the statement model
 const statementSchema = new Schema({
-    statementId: {type: String},
     incidentType: {type: String, enum: ['criminal', 'non-criminal']},
     civilianStatus: {type: String, enum: ['complainant', 'suspect', 'witness']},
     statement: {type: String},
